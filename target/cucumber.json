@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-25T19:11:53.165Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6212143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.SeleniumAutomationTestStepDefs.setUpBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify the prices of dresses and add the highest price to cart",
+        "description": "",
+        "id": "selenium-automation-test;verify-the-prices-of-dresses-and-add-the-highest-price-to-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 146292000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.SeleniumAutomationTestStepDefs.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1465842000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser and navigate to url",
+            "match": {
+              "location": "StepDefs.SeleniumAutomationTestStepDefs.openBrowserAndNavigateToUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145089000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login with \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefs.SeleniumAutomationTestStepDefs.loginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72433000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select item with highest price and verify the item in cart",
+            "match": {
+              "location": "StepDefs.SeleniumAutomationTestStepDefs.selectItemWithHighestPriceAndVerifyTheItemInCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Selenium Automation Test",
+    "description": "",
+    "id": "selenium-automation-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/automationTest.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
